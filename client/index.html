@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>📝 Task Manager</h1>
+
+    <!-- AUTH -->
+    <div class="card">
+      <h2>Register</h2>
+      <input id="reg-username" placeholder="Username" />
+      <input id="reg-email" placeholder="Email" />
+      <input id="reg-password" type="password" placeholder="Password" />
+      <button onclick="register()">Register</button>
+    </div>
+
+    <div class="card">
+      <h2>Login</h2>
+      <input id="login-email" placeholder="Email" />
+      <input id="login-password" type="password" placeholder="Password" />
+      <button onclick="login()">Login</button>
+    </div>
+
+    <!-- TASKS -->
+    <div class="card hidden" id="tasks-section">
+      <h2>Your Tasks</h2>
+
+      <input id="task-title" placeholder="Task title" />
+      <input id="task-desc" placeholder="Description" />
+      <button onclick="createTask()">Add Task</button>
+
+      <ul id="tasks-list"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
