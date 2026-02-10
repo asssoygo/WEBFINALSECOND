@@ -146,7 +146,7 @@ https://github.com/asssoygo/WEBFINALSECOND
 
  Deployed URL:
 
-https://webfinalsecond-production.up.railway.app
+[https://webfinalsecond-production.up.railway.app]
 
 ## Frontend
 
@@ -171,3 +171,4 @@ Screenshots demonstrating:
 ![front](image-1.png)
 ![front](image-2.png)
 ![postman](image-3.png)
+
